@@ -1,3 +1,16 @@
+var Pantry = {
+  strongIngredients: [glugOfRum, slugOfWhiskey, splashOfGin]
+  saltyIngredients: [oliveOnStick, saltDustedRim, baconRasher]
+  bitterIngredients: [bitters, splashOfTonic, lemonTwist]
+  sweetIngredients: [sugar, honey, cola]
+  fruityIngredients: [orangeSlice, cassis, cherry]
+}
+
+
+
+
+
+
 var Questions = new Array();
 var Ingredients = new Array();
 var Pantry = new Array();
@@ -28,6 +41,22 @@ var glugOfRum = new Ingredients('glugOfRum', 'strong');
 
 
 $(document).ready(function() {
-  console.log(Ingredients);
+
 
 });
+
+var Pantry = {
+  strongIngredients:
+  sweetIngredients: ['honey', 'sugar'],
+  saltyIngredients: [],
+
+  getAningridient(ingridentType) {
+    var currentType= this[ingridentType];
+    return currentType[]
+  }
+
+
+}
+
+
+function
