@@ -1,30 +1,11 @@
 <!DOCTYPE html>
-<html lang="en">
-	<head>
-		<meta charset="UTF-8">
-		<title>Document</title>
-	</head>
-	<body>
-		<h2>Enter yes or no to each question below</h2>
-		<form>
-			Do ye like yer drinks strong?<br>
-			<input type="radio" name="strong" value="1">Yes<input type="radio" name="strong" value="0">No<br>
-			Do ye like it with a salty tang?<br>
-			<input type="radio" name="salty" value="1">Yes<input type="radio" name="salty" value="0">No<br>
-			Are ye a lubber who likes it bitter?<br>
-			<input type="radio" name="bitter" value="1">Yes<input type="radio" name="bitter" value="0">No<br>
-			Would ye like a bit of sweetness with yer poison?<br>
-			<input type="radio" name="sweet" value="1">Yes<input type="radio" name="sweet" value="0">No<br>
-			Are ye one for a fruity finish?<br>
-			<input type="radio" name="fruity" value="1">Yes<input type="radio" name="fruity" value="0">No<br>
-			<input type="button" value="button" id="button">
-		</form>
-		<div class="drink-output"></div>
-		<h2>It seems like you would like a drink with the following ingredients: </h2>
-		<div id='list-of-ingredients'>
-			<p></p>
-		</div>
-		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
-		<script src="main.js"></script>
-	</body>
-</html>
+<meta charset="utf-8">
+<title>Pirate Bartender</title>
+
+<ul class="question-list"></ul>
+
+<button class="place-order">Place order</button>
+<div class="output"></div>
+<script src="https://code.jquery.com/jquery-2.2.3.min.js"></script>
+<script src="main.js"></script>
+Raw
